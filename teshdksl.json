@@ -23,7 +23,7 @@
             "developmentClient": true,
             "distribution": "internal",
             "env": {
-                "API_URL": "X",
+                "ENVIRONMENT": "development"
             },
             "android": {
                 "buildType": "apk",
@@ -32,10 +32,7 @@
             }
         },
         "preview": {
-            "distribution": "internal",
-            "env": {
-                "API_URL": "Y"
-            }
+            "distribution": "internal"
         },
         "production": {}
     }
