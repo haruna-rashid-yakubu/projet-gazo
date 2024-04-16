@@ -25,13 +25,17 @@
       "package": "com.worketyamo.allogaz"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
         "projectId": "ca7755f2-ba22-4a98-970f-b81a05eeb72d"
       }
     },
-    "owner": "worketyamo"
+    "owner": "worketyamo",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
